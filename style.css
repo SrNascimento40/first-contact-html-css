@@ -1,0 +1,12 @@
+.top10 {
+    color: rgb(0, 0, 0);
+    background:rgb(137, 244, 252);
+    font-family: fantasy;
+    border-width: 2px;
+    border-style:solid;
+    border-color: black;
+}
+
+article {
+    color:seagreen;
+}
