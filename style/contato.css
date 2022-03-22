@@ -1,0 +1,77 @@
+main > section {
+    background: url('home_img.png') 50% 0 no-repeat;
+}
+
+main > section h2 {
+    margin: 0 122px 186px;
+    padding-top: 49px;
+    width: 419px;
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 4px 4px rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.36);
+    padding-bottom: 102px;
+}
+
+.questionario {
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+}
+
+
+main > section h2::after {
+    content:' :)';
+}
+
+fieldset {
+    border-style: none;
+    width: 820px;
+    height: 766px;
+    left: 492px;
+    top: 672px;
+
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    border-radius: 20px;
+}
+
+legend {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+
+    color: #FFC107;
+}
+
+.botao {
+    box-sizing: border-box;
+    background: #FFC107;
+    border-radius: 50px;
+    width: 164px;
+    height: 48px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+    margin: 16.37px 617px 65.38px 38px;
+}
+
+img {
+    padding-left: 127px;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+}

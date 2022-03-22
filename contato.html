@@ -1,32 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Home</title>
-        <link rel="stylesheet" href="style/style.css">
-    </head>
-    <body>
-        <header>
-            <img src="logo.png" alt="Omma title">
-        </header>
-        <nav>
-            <div id="top_menu">
-                <ul class="menu">
-                    <a class="Home" href="inicio.html"><li>Home</li></a>
-                    <a class="Receitas" href="receitas.html"><li>Receitas</li></a>
-                    <a class="Contato" href="contato.html"><li>Contato</li></a>
-                </ul>
-            </div>
-        </nav>
-        <main>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omma - Receitas</title>
 
-        </main>
-        <footer>
-            <img src="logo.png" alt="Omma title">
-            <u class="footer_text">
-                © 2022 omma - Todos os direitos são de vocês
-            </u>
-        </footer>
-    </body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/contato.css" />
+
+</head>
+<body>
+    <header>
+        <h3 class="logo"><a href="#">Omma Receitas</a></h3>
+    </header>
+    <nav>
+        <h5 class="screen-reader-only">Navegação</h5>
+        <ul>
+            <li><a href="inicio.html">Início</a></li>
+            <li><a href="receitas.html">Receitas</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+        <section>
+            <h2>Manda um alô </h2>
+
+            <div class="container">
+                <img src="style/Rectangle.png" alt="Retangulo">
+
+                <form action="" method="post">
+                    <fieldset>
+                        <legend class="questionario">Contato</legend>
+                        <label class="questionario"><span><input type="text" required placeholder="nome"></span></label>
+                        <label class="questionario"><span><input type="email" required placeholder="E-mail"></span></label>
+                        <label class="questionario"><textarea name="mensagem" required placeholder="mensagem" cols="30" rows="10"></textarea></label>
+                        <input class="botao" type="submit" value="enviar">
+                    </fieldset>
+
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2022 omma - Todos os direitos são de vocês</p>
+    </footer>
+</body>
+</html>
