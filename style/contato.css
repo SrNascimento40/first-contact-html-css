@@ -16,7 +16,8 @@ main > section h2 {
 .questionario {
     display: flex;
     flex-direction: column;
-    padding: 22px;
+    padding: 22px 33px 20px 33px;
+    box-sizing: border-box;
 }
 
 
