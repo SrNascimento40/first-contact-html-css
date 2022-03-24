@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/contato.css" />
 
@@ -27,24 +28,34 @@
         </ul>
     </nav>
     <main>
-        
         <section>
-            <h2>Manda um alô </h2>
-
-            <div class="container">
-                <img src="style/Rectangle.png" alt="Retangulo">
-
-                <form action="" method="post">
-                    <fieldset>
-                        <legend class="questionario">Contato</legend>
-                        <label class="questionario"><input type="text" required placeholder="nome"></label>
-                        <label class="questionario"><input type="email" required placeholder="E-mail"></label>
-                        <label class="questionario"><textarea name="mensagem" required placeholder="mensagem" cols="30" rows="10"></textarea></label>
-                        <input class="botao" type="submit" value="enviar">
-                    </fieldset>
-
-                </form>
-            </div>
+            <h2>Manda um alô</h2>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Contato</legend>
+                    <div>
+                        <label>
+                            <span class="screen-reader-only">Nome</span>
+                            <input type="text" name="nome" required placeholder="nome" />
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <span class="screen-reader-only">Email</span>
+                            <input type="email" name="email" required placeholder="email">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <span class="screen-reader-only">Mensagem</span>
+                            <textarea name="mensagem" required placeholder="mensagem" cols="30" rows="10"></textarea>
+                        </label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
         </section>
     </main>
     <footer>
